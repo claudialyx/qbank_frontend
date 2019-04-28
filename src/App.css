@@ -1,33 +1,99 @@
+html body{
+  height:100%;
+  background-color: rgb(206, 213, 223);
+}
+
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(206, 213, 223);
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-content{
+  height:100%;
+  background-color:white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Menu{
+  width:80vw;
 }
+
+.Main-content {
+  margin: 5%;
+  height:100%;
+  max-width: 80vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.Upload {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  overflow: hidden;
+}
+/* 
+.ui.progress{
+  margin:3%
+} */
+.ui.card>.content, .ui.cards>.card>.content{
+  font-size:0.7em !important;
+}
+
+.Search{
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.Search-results{
+  margin:2%;
+  display:flex;
+  align-self: center;
+}
+
+.Search-results-container{
+  max-width: 50vw;
+}
+.ui.search > .ui.input.icon {
+  height:2.0em;
+  width: 60vw; 
+  font-size:0.7em;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top:2%;
+}
+
+
+.Title {
+  margin-bottom: 3%;
+  color: #555;
+  font-size: 1em
+}
+
+.progress-bar{
+  margin-top:2%;
+  width:50vw;
+}
+
+.filler{
+  background: #1da598;
+  height:100%;
+  border-radius: inherit;
+  transition:width 2.s ease-in;
+}
+
