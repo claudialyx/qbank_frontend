@@ -64,6 +64,14 @@ html body{
 .Search-results-container{
   max-width: 50vw;
 }
+
+.Keyword{
+  margin-top:2%;
+  margin-bottom:1%;
+  display:flex;
+  align-self: center;
+
+}
 .ui.search > .ui.input.icon {
   height:2.0em;
   width: 60vw; 
@@ -82,7 +90,8 @@ html body{
 .Title {
   margin-bottom: 3%;
   color: #555;
-  font-size: 1em
+  font-size: 1em;
+  
 }
 
 .progress-bar{
@@ -96,4 +105,81 @@ html body{
   border-radius: inherit;
   transition:width 2.s ease-in;
 }
+.ui.card, .ui.cards>.card{
+  min-height:150px !important;
+}
 
+.ui-bottom-attached-button{
+  background:lightgrey;
+  height:30px;
+  padding:3px;
+  width:100%;
+  border-radius:0 0 3.5px 3.5px;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  display:block;
+  font-size: 0.8em;
+}
+
+.ui-bottom-attached-button:hover {
+  cursor:pointer;
+}
+
+.ui-bottom-attached-button:hover .answers-content{
+  position: absolute;
+  display:block;
+  visibility: visible;
+  opacity: 1;
+  z-index:1; 
+}
+
+.answers-content{
+  display:none;
+  visibility: hidden;
+  opacity:0;
+  overflow:hidden;
+  width:inherit;
+  box-sizing:border-box;
+  height:auto;
+  max-height:250px;
+  top:0;
+  left:0;
+  right:0;
+  border-radius:inherit;
+  background:lightgrey;
+  position:absolute;
+  transition:all 0.5s ease-in
+} 
+
+.answers{
+  padding:0.25em;
+  margin:0.25em;
+
+}
+.Search-results-container{
+  padding:0.5em;
+}
+
+/* to hide search result recommendation */
+.ui.search>.results {
+  opacity:0 !important;
+  visibility:hidden !important;
+  display:none !important;
+}
+.ui.search>.results>.message{
+  opacity:0 !important;
+  visibility:hidden !important;
+  display:none !important;
+}
+
+.No-result{
+  margin:0.5em;
+}
+
+.Selector-menu{
+  height:30%;
+  width:100%;
+  border:1px solid black;
+}
