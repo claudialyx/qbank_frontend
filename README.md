@@ -1,14 +1,14 @@
-### User stories:
+## User stories:
 - A qsf (Qualtrics Survey File) contains survey data such as survey question types, curated questions & answers and etc.
 - User can upload qsf documents to store in database. 
 - User can then perform a search to get survey questions that were previously curated to reuse for future surveys.
 
-## Main task:
+#### Main task:
 - [x] Upload qsf.file to back end
 - [x] Connect to back end API 
 - [x] Full text search function using Peewee ORM
 
-## Extended functionality to be built:
+#### Extended functionality to be built:
 - [ ] Progress bar for uploading qsf file
 - [ ] A div at the bottom of the screen to display questions selected for to reuse for next survey.
 
