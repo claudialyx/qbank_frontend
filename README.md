@@ -8,9 +8,9 @@
 - [x] Connect to back end API 
 - [x] Full text search function using Peewee ORM
 
-#### Extended functionality to be built:
+#### Extended functionality to be built (to be done during free time):
 - [ ] Progress bar for uploading qsf file
-- [ ] A div at the bottom of the screen to display questions selected for to reuse for next survey.
+- [ ] A div at the bottom of the screen to display questions selected to reuse for next survey.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
