@@ -12,6 +12,10 @@
 - [ ] Progress bar for uploading qsf file
 - [ ] A div at the bottom of the screen to display questions selected to reuse for next survey.
 
+Back end repo located at: <https://github.com/claudialyx/qbank_server>
+
+------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
